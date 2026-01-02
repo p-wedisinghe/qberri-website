@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qberri | Your Global Technology Partner & Software Experts</title>
+    <meta name="description"
+        content="Qberri is a Sri Lanka-based tech powerhouse delivering world-class software development, QA, and digital strategies. Quality faster, results better.">
+    <meta name="keywords"
+        content="Tech companies Sri Lanka, software development partner, quality assurance experts, digital marketing solutions, Sri Lanka IT services">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">QBERRI</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#services">Impact</a></li>
+                    <li><a href="#about">Essence</a></li>
+                    <li><button id="open-contact" class="btn-primary">Connect</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <h1 class="fade-in">Streamline. Automate. <span>Dominate.</span></h1>
+                <p class="fade-in delay-1">Empowering global companies with precision software engineering from Sri
+                    Lanka. We build the technology that helps you lead your market.</p>
+                <div class="hero-btns fade-in delay-2">
+                    <a href="#services" class="btn-primary">Our Impact</a>
+                    <button class="btn-secondary contact-trigger">Get in Touch</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <div class="container">
+                <h2 class="section-title">What We Do</h2>
+                <div class="services-grid">
+                    <div class="service-card glass">
+                        <div class="icon-svg">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path
+                                    d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" />
+                                <path d="M12 16V12M12 8H12.01" />
+                            </svg>
+                        </div>
+                        <h3>Strategic Dev & QA</h3>
+                        <p>We deliver mission-critical software solutions with a focus on precision and reliability.
+                            From enterprise platforms to mobile ecosystems, our Sri Lankan engineering hub ensures
+                            quality faster.</p>
+                    </div>
+                    <div class="service-card glass">
+                        <div class="icon-svg">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" />
+                            </svg>
+                        </div>
+                        <h3>Intelligent Automation</h3>
+                        <p>Leverage AI-powered automation to eliminate manual bottlenecks. We build systems that amplify
+                            human intelligence, unlocking financial excellence and operational growth.</p>
+                    </div>
+                    <div class="service-card glass">
+                        <div class="icon-svg">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path
+                                    d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" />
+                            </svg>
+                        </div>
+                        <h3>Digital Transformation</h3>
+                        <p>Navigate the complex digital landscape with confidence. Our experts provide process
+                            analysis, data-driven strategies, and tools that help you dominate your market.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container glass about-container">
+                <div class="about-text">
+                    <h2>Our Essence</h2>
+                    <p class="mission-vision"><strong>Vision:</strong> Democratizing technology through AI-powered
+                        automation that amplifies human potential and unlocks boundless opportunities.</p>
+                    <p>Qberri is a collective of elite software engineering professionals based in Sri Lanka. We solve
+                        complex technological challenges for organizations worldwide, helping them archive financial
+                        excellence through transparency and innovation.</p>
+                    <p>By combining our deep industry experience with a passion for precision, we deliver quality
+                        faster, enabling our partners to dominate their markets with absolute confidence.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-num">Sri Lanka</span>
+                            <span class="stat-label">Engineering Hub</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num">Global</span>
+                            <span class="stat-label">Tech Partner</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta" id="contact">
+            <div class="container hero-content">
+                <h2>Ready to Scale?</h2>
+                <p>Partner with Sri Lanka's finest engineering minds and transform your business today.</p>
+                <button class="btn-primary contact-trigger">Get in Touch</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Contact Modal -->
+    <div id="contact-modal" class="modal">
+        <div class="modal-content glass">
+            <span class="close-modal">&times;</span>
+            <h2>Let's Connect</h2>
+            <p>Tell us about your project and how Qberri can help.</p>
+            <form id="lead-form">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="How can Qberri help you?" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+            <div id="form-status"></div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">QBERRI</div>
+                <div class="footer-copy">© 2026 Qberri Sri Lanka. All rights reserved.</div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>
